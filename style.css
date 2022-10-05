@@ -6,7 +6,17 @@
 
 body {
   /* background-image: url('넷플.jpg'); */
-  background-color: pink;
+  /* background-color: pink; */
+}
+.login-container{
+  height: 660px;
+  width: 450px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  background-color: rgba(17, 16, 16, 0.848);
+  transform: translate(-50%, -50%);
 }
 .title{
   color: red;
@@ -15,24 +25,49 @@ body {
   font-size: 32px;
   font-weight: 700;
   color: white;
+  transform: translateX(10%) translateY(100%);
 }
-.input{
+.input1{
     border: 0;
     border-radius: 4px;
     width: 300px;
     height: 50px;
     line-height: 50px;
     padding: 16px 20px 0;
-    border: none;
+    background-color: rgba(128, 128, 128, 0.405);
+    transform: translateX(15%) translateY(140%);
+}
+.input2{
+  border: 0;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  background-color: rgba(128, 128, 128, 0.405);
+  transform: translateX(15%) translateY(170%);
+}
+input:focus{
+  outline: none;
 }
 .lg-btn{
   background-color: red;
   color: white;
   border: none;
   cursor: pointer;
+  width: 314px;
+  height: 48px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  transform: translateX(15%) translateY(190%);
 }
 .input::placeholder {
   font-size: 15px;
+}
+.label{
+  transform: translateX(15%) translateY(190%);
 }
 #save{
   background: #737373;
@@ -41,4 +76,5 @@ body {
   height: 16px;
   left: -20px;
   width: 16px;
+  
 }
