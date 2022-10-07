@@ -5,7 +5,13 @@
 }
 
 body {
-  background-image: url('넷플.jpg');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(넷플.jpg);
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.icon{
+  height: 180px;
+  width: 180px;
+  transform: translateX(25%) translateY(-25%);
 }
 .login-container{
   height: 660px;
@@ -13,7 +19,7 @@ body {
   background-color: black;
   position: absolute;
   left: 50%;
-  top: 55%;
+  top: 57%;
   background-color: rgba(0, 0, 0, 0.864);
   transform: translate(-50%, -50%);
 }
@@ -129,7 +135,7 @@ input:focus{
   right: 100%;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.864);
-  transform: translateY(150%);
+  transform: translateY(115%);
 }
 span{
   font-size: 16px;
