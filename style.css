@@ -23,7 +23,7 @@ a:hover{
   position: absolute;
   left: 50%;
   top: 57%;
-  background-color: rgba(0, 0, 0, 0.864);
+  background-color: rgba(0, 0, 0, 0.751);
   transform: translate(-50%, -50%);
 }
 input::placeholder{
@@ -182,7 +182,7 @@ input:focus{
   text-decoration: none;
 }
 .big{
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   font-weight: lighter;
 }
