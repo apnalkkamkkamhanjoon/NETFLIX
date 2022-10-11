@@ -134,55 +134,86 @@ input:focus{
   transform: translateX(279%) translateY(860%);
 }
 #footcontainer{
-  height: 600px;
-  right: 100%;
+  height: 450px;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.864);
-  transform: translateY(115%);
+  background-color: rgba(0, 0, 0, 0.751);
+  transform: translateY(165%);
 }
 .what{
   font-size: 16px;
   color: rgba(172, 169, 169, 0.621);
   font-weight: lighter;
-  transform: translateX(10%) translateY(40%);
+  position: absolute;
+  transform: translateX(170%) translateY(100%);
 }
 .call{
   font-size: 16px;
   text-decoration: none;
   color: rgba(172, 169, 169, 0.621);
+  position: absolute;
+  transform: translateX(220%) translateY(100%);
 }
 .question{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
+  position: absolute;
+  transform: translateX(286%) translateY(450%);
 }
 .service{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
+  position: absolute;
+  transform: translateX(870%) translateY(450%);
 }
 .use{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
+  position: absolute;
+  transform: translateX(1300%) translateY(450%);
 }
 .per-info{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
+  position: absolute;
+  transform: translateX(1800%) translateY(450%);
 }
 .cookie{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
+  position: absolute;
+  transform: translateX(440%) translateY(700%);
+
 }
 .info{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
+  position: absolute;
+  transform: translateX(870%) translateY(700%);
 }
 .big{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   font-weight: lighter;
+  position: absolute;
+  transform: translateX(39.4%) translateY(210%);
+}
+select{
+  position: absolute;
+  transform: translateX(200%) translateY(400%);
+  width: 121px;
+  height: 48px;
+  background: none;
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgba(172, 169, 169, 0.621);
+  border: 0.1px solid #999; 
+  -moz-appearance: none;
+  border-radius:1px;
+  appearance: none;
 }
