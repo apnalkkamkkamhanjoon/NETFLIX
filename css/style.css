@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/넷플.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(넷플.jpg);
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 a:hover{
