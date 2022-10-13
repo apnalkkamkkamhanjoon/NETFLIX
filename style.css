@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("넷플.jpg");
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("backgroundimg.jpg");
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 a:hover{
@@ -134,59 +134,59 @@ input:focus{
   transform: translateX(279%) translateY(860%);
 }
 #footcontainer{
-  height: 450px;
+  height: 430px;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.751);
-  transform: translateY(165%);
+  transform: translateY(160%);
 }
 .what{
   font-size: 16px;
   color: rgba(172, 169, 169, 0.621);
   font-weight: lighter;
   position: absolute;
-  transform: translateX(170%) translateY(100%);
+  transform: translateX(170%) translateY(120%);
 }
 .call{
   font-size: 16px;
   text-decoration: none;
   color: rgba(172, 169, 169, 0.621);
   position: absolute;
-  transform: translateX(220%) translateY(100%);
+  transform: translateX(220%) translateY(120%);
 }
 .question{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
   position: absolute;
-  transform: translateX(286%) translateY(450%);
+  transform: translateX(286%) translateY(470%);
 }
 .service{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
   position: absolute;
-  transform: translateX(870%) translateY(450%);
+  transform: translateX(870%) translateY(470%);
 }
 .use{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
   position: absolute;
-  transform: translateX(1300%) translateY(450%);
+  transform: translateX(1300%) translateY(470%);
 }
 .per-info{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
   position: absolute;
-  transform: translateX(1800%) translateY(450%);
+  transform: translateX(1800%) translateY(470%);
 }
 .cookie{
   font-size: 13px;
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
   position: absolute;
-  transform: translateX(440%) translateY(700%);
+  transform: translateX(440%) translateY(680%);
 
 }
 .info{
@@ -194,18 +194,18 @@ input:focus{
   color: rgba(172, 169, 169, 0.621);
   text-decoration: none;
   position: absolute;
-  transform: translateX(870%) translateY(700%);
+  transform: translateX(870%) translateY(680%);
 }
 .big{
   font-size: 13px;
-  color: rgba(172, 169, 169, 0.621);
+  color: rgba(172, 169, 169, 0.715);
   font-weight: lighter;
   position: absolute;
-  transform: translateX(39.4%) translateY(210%);
+  transform: translateX(39.4%) translateY(200%);
 }
 select{
   position: absolute;
-  transform: translateX(200%) translateY(400%);
+  transform: translateX(200%) translateY(360%);
   width: 121px;
   height: 48px;
   background: none;
